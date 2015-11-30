@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\USER -I..\FWlib\inc -I..\FWlib\src -I..\BSP\CONTROL -I..\BSP\IIC -I..\BSP\IMU -I..\BSP\LED -I..\BSP\MOTOR -I..\BSP\MPU6050 -I..\BSP\PWM_IN -I..\BSP\TIM -I..\BSP\UART -I..\BSP\Delay -I..\BSP\HMC5883 -I..\BSP\ADC -I..\BSP\KEY -I..\BSP\OLED -I..\BSP\APP -I..\BSP\PARAM -I..\BSP\NRF24L01 -I..\BSP\SPI -I..\BSP\MS5611 -I..\BSP\EEPROM -I..\BSP\Data -I..\UserSys -I..\PIDUSART -I..\BSP\Ultrasonic -I..\sys -I..\BSP\STMFLASH -I..\MALLOC -I..\MAVLINK --c99 
+-I D:\MDK4.7.1\ARM\RV31\INC 
+-I D:\MDK4.7.1\ARM\CMSIS\Include 
+-I D:\MDK4.7.1\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\pos_control.o" --omf_browse "..\Output\pos_control.crf" --depend "..\Output\pos_control.d" "..\UserSys\pos_control.c"
